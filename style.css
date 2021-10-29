@@ -1,0 +1,130 @@
+header
+{
+    background-color: rgb(33, 54, 101);     
+    color: rgb(255, 255, 255);
+    width: 130px;
+    height: 100%;
+    position: fixed;
+    left: 0;   
+    
+}
+@media (max-width:1284px)
+{
+    header
+    {
+    
+    top: 0;
+    background-color: rgb(33,54,101);
+    height: 55px;
+    width: 100%;
+    display: flex;
+    color: white;
+    
+    align-items: center;
+    
+    
+    }
+}
+body
+{
+    color: rgb(255, 255, 255);
+}
+ul
+{  
+    list-style-type: none; 
+    display: flex; 
+    flex-direction: column;
+    
+     
+}
+@media (max-width:1284px)
+{
+    ul
+    {
+        list-style-type: none;
+       display: flex;
+       flex-direction: row;
+        
+    }
+}
+li
+{   
+    color: rgb(255, 255, 255);   
+    margin-bottom: 25px;
+    
+}
+@media (max-width:1284px)
+{
+li
+{
+    
+        color: rgb(255, 255, 255);
+        padding-right: 150px;
+     
+}
+}
+
+h2
+{
+    font-size: 12px;
+    color:black;
+    text-align: center;
+    padding-bottom:36px ;
+    padding-left: 150px;
+    
+
+}
+h3
+{
+    font-size: 18px;
+    text-align: center;
+    margin-top:10px;
+    
+
+}
+@media(max-width:1284px)
+{
+    h3
+    {
+        font-size: 9px;
+    }
+
+}
+h4
+{
+    color:black;
+    font-size: 12px;
+}
+h5
+{
+    color:black;
+    margin-left:246px ;
+    
+}
+@media(max-width:1284px)
+{
+    h5
+    {   
+        margin-left: 0px;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+h6
+{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;;
+}
+@media(max-width:1284px)
+{
+    h6
+    {   
+        text-align: center;
+        font-size: 6px;
+    }
+}
+a
+{
+    text-decoration: none;
+}
